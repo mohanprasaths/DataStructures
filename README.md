@@ -27,3 +27,35 @@ O(n log n) -  when we do divide and conquer type of algorithms e.g binary search
 O(N) time to find a pivot element. Hence it  N O(log N)
 
 O(n2) - number of operations increases n*n times with n number of inputs
+
+
+Popular Alogorithm types :
+
+Greedy algorithms : Being greedy to provide optimal solution
+examples :
+Counting coins
+Travelling Salesman Problem
+Prim's Minimal Spanning Tree Algorithm
+Kruskal's Minimal Spanning Tree Algorithm
+Dijkstra's Minimal Spanning Tree Algorithm
+Graph - Map Coloring
+Graph - Vertex Cover
+Knapsack Problem
+Job Scheduling Problem
+
+Divide and conquer : Break a problem in to subproblems recursively untill it cannot be further divided and solve the subproblems and merge the solutions together for the solution of original Problem
+examples :
+Merge Sort
+Quick Sort
+Binary Search
+Strassen's Matrix Multiplication
+Closest pair (points)
+
+Dynamic programming - Problem is divided in to subproblems and the result of the subproblems will be remembered for having the optimal solution while solving the original problem .
+examples :
+Fibonacci number series
+Knapsack problem
+Tower of Hanoi
+All pair shortest path by Floyd-Warshall
+Shortest path by Dijkstra
+Project scheduling
