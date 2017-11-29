@@ -59,3 +59,11 @@ Tower of Hanoi
 All pair shortest path by Floyd-Warshall
 Shortest path by Dijkstra
 Project scheduling
+
+
+Skipping stack and queue to Graph DS
+
+Graph DS
+Vertex is the point
+Edge is the line connecting the points  
+Connected vertices are considered adjacent 
