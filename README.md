@@ -73,7 +73,17 @@ Types:
 1.)Undirected graph - two way relationship eg: Jim and jack play basketball , where jim and jack are vertex and play-basketball is edge
 2.) Directed graph - One way relationship eg: Jim drives car ,  car cannot drive jim , where jim and car are vertex and drive is edge
 
-Connected cyclic  graph : from a  vertex we can traverse and reach the same vertex again -
-Connected acyclic  graph : from a  vertex we can traverse and cannot reach the same vertex again - by removing few of the edges . It is a tree actually , since all the vertex can reach other .
+Undirected cyclic  graph : from a  vertex we can traverse and reach the same vertex again -
+Undirected acyclic  graph : from a  vertex we can traverse and cannot reach the same vertex again - by removing few of the edges . It is a tree actually , since all the vertex can reach other .
 If a edge is removed from Undirected acyclic graph , it will result in two seperate graph or disjoint trees .
 Joining trees form a forest .
+
+
+Ways to represent graph :
+Adjacency matrices
+Adjacency lists
+Adjacency sets
+
+
+Adjacency  matrix for undirected graph will be symmetric
+Adjacency  matrix for directed graph will be asymmetric
