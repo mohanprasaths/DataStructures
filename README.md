@@ -87,3 +87,9 @@ Adjacency sets
 
 Adjacency  matrix for undirected graph will be symmetric
 Adjacency  matrix for directed graph will be asymmetric
+
+
+Common graph problems -
+Topological sort - Computation graphs in neural networks
+Shortest path - fast delivery of anything , packets or networks
+Minimum spanning - Planning transport roads , Planning railway lines
