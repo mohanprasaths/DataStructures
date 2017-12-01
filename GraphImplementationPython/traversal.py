@@ -24,6 +24,21 @@ def breadth_first(graph, start=0):
 			if visited[v] != 1:
 				queue.put(v)
 
+
+
+def depth_first(graph, visited, current=0):
+	if visited[current] == 1:
+		return
+
+	visited[current] = 1
+
+	print("Visit: ", current)
+
+	for vertex in graph.get_adjacent_vertices(current):
+		depth_first(graph, visited, vertex)
+
+
+
 g = AdjacencyMatrixGraph(9)
 g.add_edge(0, 1)
 g.add_edge(1, 2)
