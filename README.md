@@ -94,5 +94,16 @@ Topological sort - Computation graphs in neural networks - DAG (directed acyclic
 Shortest path - fast delivery of anything , packets or networks
 Minimum spanning - Planning transport roads , Planning railway lines
 
-Topological sort = Directed acyclic graph - used for scheduling and neural networks
+Topological sort = Directed acyclic graph - used for scheduling and neural networks - precedence order - one task after another - A graph can have more than one Topological sort/order
 Calculate in-degree (number of incoming edges on vertex )in DAG - if no vertex has in-degree of 0 , then the graph is cyclic and Topological sort is not possible
+Steps :  
+1.) Start with the 0 in-degree vertex , process it and then mark it as processed , add it to precedencelist and remove from the graph
+2.) Calculate in-degree again - process the vertex with in-degree equals 0 ,and mark it as processed , add it to the precedencelist and  and remove it from graph , repeat
+
+
+Shortest Path :
+Finding the shortest path between two nodes - tranportation  -
+Edge weights determine the cost of the path
+Two algorithms :
+If all edges of same weight - unweighted shortest path algorithms
+if the edges are of different weight - Dijkstra algorithm
