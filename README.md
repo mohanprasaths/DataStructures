@@ -90,6 +90,9 @@ Adjacency  matrix for directed graph will be asymmetric
 
 
 Common graph problems -
-Topological sort - Computation graphs in neural networks
+Topological sort - Computation graphs in neural networks - DAG (directed acyclic graph)   eg: scheduling tasks
 Shortest path - fast delivery of anything , packets or networks
 Minimum spanning - Planning transport roads , Planning railway lines
+
+Topological sort = Directed acyclic graph - used for scheduling and neural networks
+Calculate in-degree (number of incoming edges on vertex )in DAG - if no vertex has in-degree of 0 , then the graph is cyclic and Topological sort is not possible
