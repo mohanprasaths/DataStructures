@@ -107,3 +107,9 @@ Edge weights determine the cost of the path
 Two algorithms :
 If all edges of same weight - unweighted shortest path algorithms
 if the edges are of different weight - Dijkstra algorithm
+
+unweighted shortest path algorithm:
+Distance table - three column array - (nodes , distance from source node , preceding node[node encountered before the particular node from the source node] )
+Distance tables
+
+Once distance table is done , we will make series of lookups on the distance table to find the shortest path . (Backtracking)
