@@ -117,3 +117,7 @@ Once distance table is done , we will make series of lookups on the distance tab
 eg: For the ultimate destination node look in the distance table and see what is the preceeding node and add it to the stack
  and for the preceeding node look in the  distance table for its preceding node , add it the stack and repeat this step untill the node is the source node
 Add the number of entries in stack for the cost and use last in first out feature for finding the path
+
+
+Djistras Algorithm :  Finding shortest path for weighted graphs
+Enqueing algorithm is based on the priority by the weight from the source node .
