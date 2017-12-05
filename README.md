@@ -112,5 +112,8 @@ unweighted shortest path algorithm:
 Distance table - three column array - (nodes , distance from source node , preceding node[node encountered before the particular node from the source node] )
 Distance tables
 
-Constructing distance table - get the source node and fill in all the columns (A,0,A) and get the immediate neighbours (adjacent nodes) of the source node and add it to the queue and update the distance table . Now take the node from queue and find the unvisited adjacent nodes and add it queue and update the table . Repeat untill all nodes are visited 
+Constructing distance table - get the source node and fill in all the columns (A,0,A) and get the immediate neighbours (adjacent nodes) of the source node and add it to the queue and update the distance table . Now take the node from queue and find the unvisited adjacent nodes and add it queue and update the table . Repeat untill all nodes are visited
 Once distance table is done , we will make series of lookups on the distance table to find the shortest path . (Backtracking)
+eg: For the ultimate destination node look in the distance table and see what is the preceeding node and add it to the stack
+ and for the preceeding node look in the  distance table for its preceding node , add it the stack and repeat this step untill the node is the source node
+Add the number of entries in stack for the cost and use last in first out feature for finding the path
