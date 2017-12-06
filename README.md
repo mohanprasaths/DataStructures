@@ -121,3 +121,11 @@ Add the number of entries in stack for the cost and use last in first out featur
 
 Djistras Algorithm :  Finding shortest path for weighted graphs
 Enqueing algorithm is based on the priority by the weight from the source node .
+
+Constructing distance table :
+Distance table - three column array - (nodes , distance from source node , preceding node[node encountered before the particular node from the source node] )
+get the source node and fill in all columns (A,0,A) , (B,infinite,A) ... .  Get the immediate neighbours and distance from source and put it in proirity queue . Get the node with lowest cost and process it (get the neighbours and cost from source, put it in proirity queue and update it in distance table) . Repeat the steps untill the the proirity queue is empty .
+we will make series of lookups on the distance table to find the shortest path . (Backtracking)
+eg: For the ultimate destination node look in the distance table and see what is the preceeding node and add it to the stack
+ and for the preceeding node look in the  distance table for its preceding node , add it the stack and repeat this step untill the node is the source node
+Add the distance column of entries in stack for the cost and use last in first out feature for finding the path
