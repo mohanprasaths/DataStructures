@@ -129,3 +129,9 @@ we will make series of lookups on the distance table to find the shortest path .
 eg: For the ultimate destination node look in the distance table and see what is the preceeding node and add it to the stack
  and for the preceeding node look in the  distance table for its preceding node , add it the stack and repeat this step untill the node is the source node
 Add the distance column of entries in stack for the cost and use last in first out feature for finding the path
+
+
+Minumum spanning tree - Removing the cyclic edges from the graph make it a tree, and from every node we should be able to access the other nodes (through set of edges) .
+Removing an edge from spanning tree will result in two seperate trees . If a graph has 6 vertices , then there will 5 edges in minumum spanning tree
+A graph can have more than one spanning tree
+Minumum spanning tree is spanning tree with lowest weight . ie : cost of all edges in the spanning tree
