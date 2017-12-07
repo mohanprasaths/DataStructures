@@ -135,3 +135,11 @@ Minumum spanning tree - Removing the cyclic edges from the graph make it a tree,
 Removing an edge from spanning tree will result in two seperate trees . If a graph has 6 vertices , then there will 5 edges in minumum spanning tree
 A graph can have more than one spanning tree
 Minumum spanning tree is spanning tree with lowest weight . ie : cost of all edges in the spanning tree
+
+Prims algorithm  - should work only with connected graph
+Kruskals algorith  - works even with disconnected graphs
+
+Prims algorithm - Start with any node in the graph , Spanning tree will be different based on the what node we start with
+find all edges that goes out from the node - all those edges are candidate edges .Choose the lowest cost edge from the candidate edges and Add the edge and mark the vertex as visited.
+Now get all the unvisted edges for all the visted nodes and get the edge with the lowest cost , Repeat those steps untill all nodes are visited
+Prims algorithm find the local optimum mimimal spanning tree , since it is greedy algorithm 
