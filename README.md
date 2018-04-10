@@ -3,8 +3,9 @@
 Algrithms should be unambiguous (not more than one meaning/step)
 
 Analysis:
-A Priori Analysis : Theorectical Analysis - Without implementing it - Assuming all factors
-A posterior Analysis : Emprical Analysis - Implement and anaysed
+A Priori Analysis - Theorectical Analysis , Without implementing it , Assuming all factors
+
+A posterior Analysis - Emprical Analysis - Implement and anaysed
 
 Complexity:
 Time : counted by number of key operations
